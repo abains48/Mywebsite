@@ -6,13 +6,12 @@ body {
 }
 
 h1 {
-  font-size: 515%;
+  font-size: 500%;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   color:#66BFBF;
   line-height: 2;
 }
-
 
 
 
@@ -26,7 +25,7 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color:#66BFBF;
+  color: #66BFBF;
 }
 
 
@@ -35,6 +34,21 @@ hr {
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.navbar {
+  background-color:#66BFBF;
+  padding: 1% 0 1% 0 ;
+}
+
+.nav-link {
+  color:#fff;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 .middle-container {
@@ -55,24 +69,35 @@ hr {
 .topcloud {
   position: relative;
   margin-top: 28px;
-  left: 400px;
+  left: 430px;
+  top:70px;
 }
 
 .bottomcloud{
   margin: 50px auto 0 auto;
-  position: absolute;
-  left:250px;
+  position: relative;
+  bottom: 150px;
+  right: 35px;
 }
 
 .moutain{
   margin: 25px;
+  position: relative;
+  bottom: 15px;
+  right: 40px;
 }
 
 
 .top {
   text-align: center;
+  position: relative;
+  font-family: 'Merriweather', serif;
+  top:10px;
 }
 
+.intro-heading{
+  margin-top: 30px;
+}
 
 
 .pythonimg {
@@ -100,12 +125,21 @@ hr {
 }
 
 .sqlimg{
-  float: right;
+  float: left;
   width: 160px;
   position: relative;
   bottom: 25px;
   margin: 15px 10px 20px 10px;
 }
+
+.js-img {
+  float: right;
+  width: 120px;
+  position: relative;
+  bottom: 25px;
+  margin: 15px 30px 20px 10px;
+}
+
 
 .skill-row1 {
   width:50%;
@@ -130,6 +164,13 @@ hr {
 
 .skill-row4 {
   width:50%;
+  text-align: left;
+  margin: 45px auto 130px auto;
+  line-height: 1.5;
+}
+
+.skill-row5{
+  width:50%;
   text-align: right;
   margin: 45px auto 130px auto;
   line-height: 1.5;
@@ -146,6 +187,28 @@ hr {
   line-height: 1.5;
 }
 
+.carousel {
+  padding: 7% 15%;
+  margin: 5% 0;
+  background-color: #66BFBF;
+}
+
+.carousel-heading {
+  margin-bottom: 5%;
+  color: #fff;
+  text-align: center;
+}
+
+.project-img {
+  width:75%;
+  position: relative;
+  left: 35px;
+}
+
+.drumkit-link {
+  position: relative;
+  top:250px;
+}
 
 
 .btn {
@@ -175,6 +238,7 @@ hr {
   text-decoration: none;
 }
 
+
 .bottom-container {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -188,9 +252,6 @@ hr {
   margin: 10px 10px;
 }
 
-a:hover {
-  color: #EAF6F6;
-}
 
 .name {
   color: #EAF6F6;
