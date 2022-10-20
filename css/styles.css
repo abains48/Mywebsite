@@ -40,15 +40,25 @@ a:hover {
   color: #EAF6F6;
 }
 
+
+.navbar-toggler {
+  background-color: #fff;
+}
+.nav-item{
+  color:#fff;
+}
+
+
 .navbar {
   background-color:#66BFBF;
+  color:#fff;
   padding: 1% 0 1% 0 ;
 }
 
 .nav-link {
-  color:#fff;
   font-size: 1.5rem;
   line-height: 1.5;
+  color:#fff;
 }
 
 .middle-container {
